@@ -140,9 +140,11 @@ h3 {
   animation-delay: 1s;
 }
 
+
 /*******************************************
             CONTENT (Generic)
 *******************************************/
+
 .content-box {
   padding: 60px 0;
 }
@@ -161,9 +163,11 @@ h3 {
   margin: 0 auto 30px auto;
 }
 
+
 /*******************************************
             SERVICES
 *******************************************/
+
 .service-item {
   padding: 20px 0;
   margin-bottom: 20px;
@@ -196,9 +200,20 @@ h3 {
   padding-left: 85px;
 }
 
+
 /*******************************************
             ABOUT
 *******************************************/
+
+#about-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url(../img/bg-about.jpg);
+  border-left: 200px solid white;
+  border-top: 700px solid transparent;
+}
+
 #about-content-box {
   float: left;
   height: 700px;
@@ -221,7 +236,7 @@ h3 {
 
 #about .content-title-underline {
   margin: 0 0 30px 0;
-} 
+}
 
 #about-desc {
   margin-bottom: 30px;
