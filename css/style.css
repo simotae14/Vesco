@@ -106,6 +106,17 @@ h3 {
   color: #41464b;
 }
 
+.btn-blue {
+  border-color: #34c6d3;
+  color: #34c6d3;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: #34c6d3;
+  color: #fff;
+}
+
 
 /*******************************************
             ANIMATE
