@@ -241,3 +241,12 @@ h3 {
 #about-desc {
   margin-bottom: 30px;
 }
+
+/*******************************************
+            WORK
+*******************************************/
+.row.no-gutters [class*=col-] {
+  padding-left: 0;
+  padding-right: 0;
+  
+}
