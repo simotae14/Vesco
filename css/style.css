@@ -265,9 +265,11 @@ h3 {
   cursor: zoom-in;
 }
 
+
 /*******************************************
             TEAM
 *******************************************/
+
 .team-member {
   margin: 0 15px;
 }
@@ -284,5 +286,40 @@ h4.team-member-name {
 }
 
 h4.team-member-designation {
+  color: #34c6d3;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+
+/*******************************************
+            SOCIAL
+*******************************************/
+
+.social-list {
+  padding-left: 0;
+}
+
+.social-list li {
+  list-style: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  font-size: 17px;
+}
+
+.icon-gray i {
+  color: #64707b
+}
+
+.social-icons i:hover {
   color: #34c6d3;
 }
