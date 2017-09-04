@@ -618,7 +618,7 @@ form .form-control {
   float: right;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav > li > a {
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
@@ -626,8 +626,7 @@ form .form-control {
   font-weight: 700;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-nav>li>a:focus {
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus {
   background: none;
   color: #34c6d3;
 }
@@ -635,7 +634,6 @@ form .form-control {
 .navbar-toggle {
   background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid #fff;
-  border-radius: 0;
 }
 
 .navbar-toggle .icon-bar {
@@ -645,7 +643,7 @@ form .form-control {
 .navbar-collapse {
   max-height: none !important;
 }
-.vesco-top-nav ul.navbar-nav > li.active > a {
+
+.vesco-top-nav ul.navbar-nav > li.active {
   color: #34c6d3;
-  background-color: transparent;
 }
