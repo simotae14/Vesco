@@ -645,3 +645,7 @@ form .form-control {
 .navbar-collapse {
   max-height: none !important;
 }
+.vesco-top-nav ul.navbar-nav > li.active > a {
+  color: #34c6d3;
+  background-color: transparent;
+}
