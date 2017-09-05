@@ -41,7 +41,6 @@
   .vesco-nav-wrapper {
     padding: 0;
   }
-  
   /* About - Remove diagonal border */
   #about-bg-diagonal {
     border-left: 0;
@@ -52,6 +51,14 @@
   #about-content-box {
     width: 100%;
     height: 350px;
+  }
+  /* Stats */
+  .stats-item {
+    padding: 20px 0;
+  }
+  /* Footer */
+  #footer-copyrights {
+    text-align: center;
   }
 }
 
