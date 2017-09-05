@@ -5,12 +5,26 @@
 
 /* Large Devices (Desktops & Laptops) */
 
-@media(min-width: 1200px) {}
+@media(min-width: 1200px) {
+  /* OK */
+}
 
 
 /*  Medium Devices (Landscape Tablets & Medium Desktops) */
 
-@media(min-width: 992px) and (max-width: 1999px) {}
+@media(min-width: 992px) and (max-width: 1999px) {
+  /* Menu Mobile */
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .vesco-nav-wrapper {
+    padding: 0;
+  }
+}
 
 
 /*  Small Devices (Portrait Tablets & Small Desktops) */
