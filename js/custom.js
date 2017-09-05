@@ -69,3 +69,21 @@ $(function () {
     autoplayHoverPause: true
   });
 });
+
+/*******************************************
+            NAVIGATION
+*******************************************/
+// Show/hide transparent black navigation
+$(function () {
+
+    $(window).scroll(function () {
+
+        if ($(this).scrollTop() < 50) {
+            // hide nav
+            $("nav").removeClass("vesco-top-nav navbar-inverse");
+        } else {
+            // show nav
+            $("nav").addClass("vesco-top-nav navbar-inverse");
+        }
+    });
+});
