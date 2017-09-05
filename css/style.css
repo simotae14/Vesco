@@ -117,6 +117,16 @@ h3 {
   color: #fff;
 }
 
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+  display: none;
+}
+
 
 /*******************************************
             ANIMATE
@@ -632,6 +642,7 @@ form .form-control {
   background: none;
   color: #34c6d3;
 }
+
 .vesco-nav-wrapper .navbar-toggle {
   background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid #fff;

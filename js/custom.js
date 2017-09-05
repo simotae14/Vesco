@@ -81,9 +81,11 @@ $(function () {
     if ($(this).scrollTop() < 50) {
       // hide nav
       $("nav").removeClass("vesco-top-nav navbar-inverse");
+      $("#back-to-top").fadeOut();
     } else {
       // show nav
       $("nav").addClass("vesco-top-nav navbar-inverse");
+      $("#back-to-top").fadeIn();
     }
   });
 });
