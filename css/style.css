@@ -214,13 +214,6 @@ h3 {
   padding-left: 85px;
 }
 
-<<<<<<< HEAD
-/*******************************************
-            CLIENTS
-*******************************************/
-.client {
-  padding: 40px 0;
-=======
 
 /*******************************************
             ABOUT
@@ -667,5 +660,4 @@ form .form-control {
 #vesco-menu .navbar-nav>li.active>a {
   color: #34c6d3;
   background: transparent;
->>>>>>> gh-pages
 }
