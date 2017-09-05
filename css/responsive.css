@@ -114,7 +114,7 @@
   .testimonial blockquote p {
     font-size: 14px;
   }
-    /* Stats */
+  /* Stats */
   .stats-item {
     padding: 20px 0;
   }
@@ -125,11 +125,40 @@
 }
 
 
+/*  Extra small Devices (Portrait Phoens & Smaller Devices) */
+
+@media(max-width: 480px) {
+  /* Ok */
+}
+
+
 /*  Extra small Devices (Smaller Devices) */
 
-@media(max-width: 480px) {}
-
-
-/*  Extra small Devices (Smaller Devices) */
-
-@media(max-width: 320px) {}
+@media(max-width: 320px) {
+  /* Services */
+  .service-item-icon i {
+    width: 58px;
+    height: 58px;
+    padding: 7px;
+  }
+  .service-item-title h3 {
+    font-size: 17px;
+  }
+  /* About */
+  #about-content-box {
+    margin-top: 40px;
+  }
+  /* Testimonials */
+  .testimonial img {
+    max-width: 80px;
+  }
+  .testimonial blockquote {
+    padding: 6px 30px;
+  }
+  .testimonial blockquote:before {
+    left: 7px;
+  }
+  .testimonial blockquote:after {
+    right: 7px;
+  }
+}
