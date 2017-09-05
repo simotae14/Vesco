@@ -29,7 +29,25 @@ $(function () {
     autoplay: true,
     smartSpeed: 700,
     loop: true,
-    autoplayHoverPause: true
+    autoplayHoverPause: true,
+    responsive: {
+      // breakpoint from 0 up
+      0: {
+        // mostro un item
+        items: 1
+      },
+      // breakpoint from 480 up
+      480: {
+        // mostro 2 item
+        items: 2
+      },
+      // breakpoint from 768 up
+      768: {
+        // mostro 3 item
+        items: 3
+      }
+
+    }
   });
 });
 
